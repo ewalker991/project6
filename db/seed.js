@@ -3,6 +3,8 @@ require('../database')
 
 // REQUIRE YOUR MODELS OR JSONS IF APPLICABLE HERE
 // EX: let housesModel = require('<file directory here>')
+let modelName = require('./model.js')
+let infoJson = require('./info.json')
 
 
 // YOUR CRUD OPERATIONS FOR YOUR DATA HERE
@@ -13,3 +15,11 @@ require('../database')
 //                 console.log(characters.length, "created")
 //             })
 //         })
+
+modelName.deleteMany({})
+    .then(response => {
+        modelName.create(infoJson)
+        .then(information => {
+            console.log(information, "Info gotten.")
+        })
+    })
