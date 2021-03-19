@@ -10,6 +10,19 @@
 
 ### End Point: `https://sei21-es-project6.herokuapp.com/`
 
+#### Categories to search
+
+* Flora: `grass`, `plant`, `tree`
+* Fauna: `animal`, `bird`, `cattle`, `fish`, `insect`, `snake`, `worm`
+* Things: `building`, `chariot`, `food`, `grain`, `metal`, `object`, `ship`, `weapons`, `war`
+* Measurements: `number`, `distance`, `time`, `weight`
+* Geography: `mountain`, `place`, `river`
+* Knowledge: `astronomy`, `disease`, `literature`, `medicine`, `poison`, `subject`
+* Entertainment: `dicing`, `games`, `music`
+* Toilette: `clothing`, `hair`, `ornament`
+* Legal: `law`, `morals`
+* Societal: `agriculture`, `caste`, `family`, `occupation`, `priest`, `royalty`, `trade`, `tribe`
+
 ### This API uses HTTP GET for query
 
 #### Example: `$ http get https://sei21-es-project6.herokuapp.com/food`
@@ -37,17 +50,3 @@
 { ....
 
 ```
-
-#### Categories to search
-
-* Flora: `grass`, `plant`, `tree`
-* Fauna: `animal`, `bird`, `cattle`, `fish`, `insect`, `snake`, `worm`
-* Things: `building`, `chariot`, `food`, `grain`, `metal`, `object`, `ship`, `weapons`, `war`
-* Measurements: `number`, `distance`, `time`, `weight`
-* Geography: `mountain`, `place`, `river`
-* Knowledge: `astronomy`, `disease`, `literature`, `medicine`, `poison`, `subject`
-* Entertainment: `dicing`, `games`, `music`
-* Toilette: `clothing`, `hair`, `ornament`
-* Legal: `law`, `morals`
-* Societal: `agriculture`, `caste`, `family`, `occupation`, `priest`, `royalty`, `trade`, `tribe`
-
