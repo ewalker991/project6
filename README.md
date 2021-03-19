@@ -8,7 +8,7 @@
   
 ##### Information source: https://aninditabasu.github.io/indica/html/vs.html
 
-##### Root address after running `npm start` from project6 directory: http://localhost:9000/
+##### Root address after running `npm start` from project6 directory: http://localhost:9001/
 
 #### Categories to search, just append to the end of the url
 
