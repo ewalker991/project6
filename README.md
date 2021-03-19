@@ -11,8 +11,7 @@
 ##### Root address after running `npm start` from project6 directory: http://localhost:9000/
 
 #### Categories to search, just append to the end of the url
-<!-- <details><summary>Click to see categories</summary>
-<p> -->
+
 * food
 * plant
 * astronomy
@@ -55,5 +54,3 @@
 * weight
 * mountain
 * ornament
-<!-- </p>
-</details> -->
