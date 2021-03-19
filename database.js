@@ -2,8 +2,10 @@ let mongoose = require('mongoose')
 
 let mongooseConnectionConfig = { useNewUrlParser: true, useUnifiedTopology: true }
 
-let connectionString = process.env.DB_URL;
+let connectionString = "";
+
 console.log(process.env.NODE_ENV, "env")
+
 if (process.env.NODE_ENV === "production") {
     connectionString = process.env.DB_URL;
 } else {
