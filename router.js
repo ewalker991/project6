@@ -1,6 +1,6 @@
 let express = require('express')
 let router = new express.Router()
-let modelName = require('./db/model')
+let vedicModel = require('./db/vedicModel')
 
 //THIS KIND OF CODE GOES HERE
 // router.get('/<applicable field>', (request, response) => {
@@ -10,8 +10,8 @@ let modelName = require('./db/model')
 //      })
 // })
 
-router.get('/:id', (request, response) => {
-    modelName.findById({ _id: request.params.id })
+router.get('/:category', (request, response) => {
+    vedicModel.find({ category: request.params.category })
         .then((names) => {
             response.json(names)
         })

@@ -3,8 +3,8 @@ require('../database')
 
 // REQUIRE YOUR MODELS OR JSONS IF APPLICABLE HERE
 // EX: let housesModel = require('<file directory here>')
-let modelName = require('./model.js')
-let infoJson = require('./info.json')
+let vedicModel = require('./vedicModel.js')
+let vedicJson = require('./vedic.json')
 
 
 // YOUR CRUD OPERATIONS FOR YOUR DATA HERE
@@ -16,9 +16,9 @@ let infoJson = require('./info.json')
 //             })
 //         })
 
-modelName.deleteMany({})
+vedicModel.deleteMany({})
     .then(response => {
-        modelName.create(infoJson)
+        vedicModel.create(vedicJson)
         .then(information => {
             console.log(information, "Info gotten.")
         })
