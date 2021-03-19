@@ -8,7 +8,7 @@
   
 ##### Information source: https://aninditabasu.github.io/indica/html/vs.html
 
-### Root address: https://sei21-es-project6.herokuapp.com/
+### End Point: https://sei21-es-project6.herokuapp.com/
 
 #### Categories to search
 
