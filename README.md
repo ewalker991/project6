@@ -1,5 +1,6 @@
-# Project 6
-## Erika Sanchez
+# Vedic Words API
+## Project 6
+### Erika Sanchez
 
 ##### Used: 
 * express
@@ -8,49 +9,45 @@
   
 ##### Information source: https://aninditabasu.github.io/indica/html/vs.html
 
-##### Root address after running `npm start` from project6 directory: http://localhost:9000/
+### Root address: https://sei21-es-project6.herokuapp.com/
 
-#### Categories to search, just append to the end of the url
+#### Categories to search
 
-* food
-* plant
-* astronomy
-* law
-* family
-* cattle
-* music 
-* occupation
-* caste
-* priest
-* weapon
-* building
-* time
-* object
-* snake
-* animal
-* tribe
-* clothing
-* literature
-* chariot
-* dicing
-* bird
-* disease
-* worm
-* insect
-* grain
-* distance
-* river
-* royalty
-* ship
-* agriculture
-* tree
-* subject
-* metal
-* war
-* grass
-* medicine
-* morals
-* hair
-* weight
-* mountain
-* ornament
+* Flora: `grass`, `plant`, `tree`
+* Fauna: `animal`, `bird`, `cattle`, `fish`, `insect`, `snake`, `worm`
+* Things: `building`, `chariot`, `food`, `grain`, `metal`, `object`, `ship`, `weapons`, `war`
+* Measurements: `number`, `distance`, `time`, `weight`
+* Geography: `mountain`, `place`, `river`
+* Knowledge: `astronomy`, `disease`, `literature`, `medicine`, `poison`, `subject`
+* Entertainment: `dicing`, `games`, `music`
+* Toilette: `clothing`, `hair`, `ornament`
+* Legal: `law`, `morals`
+* Societal: `agriculture`, `caste`, `family`, `occupation`, `priest`, `royalty`, `trade`, `tribe`
+
+### This API uses HTTP GET for query
+
+#### Example: `$ http get https://sei21-es-project6.herokuapp.com/food`
+
+##### Expected result: 
+
+```
+[
+{
+"_id": "6054a69ee11b660004cc374b",
+"category": "food",
+"description": "butter",
+"nagari": "आज्या",
+"word": "ajya",
+"__v": 0
+},
+{
+"_id": "6054a69ee11b660004cc375c",
+"category": "food",
+"description": "a kind of grain",
+"nagari": "आम्ब",
+"word": "amb",
+"__v": 0
+},
+{ ....
+
+```
