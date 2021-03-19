@@ -1,6 +1,5 @@
 # Vedic Words API
-## Project 6
-### Erika Sanchez
+## Project 6 - By Erika Sanchez
 
 ##### Used: 
 * express
