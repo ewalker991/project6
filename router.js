@@ -12,8 +12,8 @@ let vedicModel = require('./db/vedicModel')
 
 router.get('/:category', (request, response) => {
     vedicModel.find({ category: request.params.category })
-        .then((names) => {
-            response.json(names)
+        .then((data) => {
+            response.json(data)
         })
 })
 
