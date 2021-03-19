@@ -1,5 +1,12 @@
-# Erika Sanchez
-## Project 6
+# Project 6
+## Erika Sanchez
+
+##### Used: 
+* express
+* javascript
+* mongoose
+  
+##### Information source: https://aninditabasu.github.io/indica/html/vs.html
 
 ##### Root address after running npm start from project6 directory: http://localhost:9000/
 
