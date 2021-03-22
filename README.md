@@ -75,7 +75,7 @@
 ## PUT
 ### This will edit the word you specify and change its fields you define.
 
-#### Template: `http put https://sei21-es-project6.herokuapp.com/<word here> description="<desired description here>"
+#### Template: `http put https://sei21-es-project6.herokuapp.com/<word here> description="<desired description here>"`
 
 #### Example: `http put https://sei21-es-project6.herokuapp.com/hello description="a short greeting in english"`
 
