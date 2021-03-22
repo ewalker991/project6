@@ -57,7 +57,7 @@
 
 ***Note: YOU MUST INCLUDE A CATEGORY WHEN MAKING A WORD.***
 
-#### Template: `http post https://sei21-es-project6.herokuapp.com/<word here> word="<word here>" description="<describe word here>" category="<define category here>"
+#### Template: `http post https://sei21-es-project6.herokuapp.com/<word here> word="<word here>" description="<describe word here>" category="<define category here>"`
 
 #### Example: `http post https://sei21-es-project6.herokuapp.com/hello word="hello" category="english words" description="the word to greet others in english"`
 
