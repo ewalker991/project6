@@ -52,9 +52,12 @@
 
 ```
 
-### POST
-## This will allow you to create a new category and add new words.
+## POST
+### This will allow you to create a new category and add new words.
+
 ***Note: YOU MUST INCLUDE A CATEGORY WHEN MAKING A WORD.***
+
+#### Template: `http post https://sei21-es-project6.herokuapp.com/<word here> word="<word here>" description="<describe word here>" category="<define category here>"
 
 #### Example: `http post https://sei21-es-project6.herokuapp.com/hello word="hello" category="english words" description="the word to greet others in english"`
 
@@ -69,8 +72,10 @@
 }
 ```
 
-### PUT
-## This will edit the word you specify and change its fields you define.
+## PUT
+### This will edit the word you specify and change its fields you define.
+
+#### Template: `http put https://sei21-es-project6.herokuapp.com/<word here> description="<desired description here>"
 
 #### Example: `http put https://sei21-es-project6.herokuapp.com/hello description="a short greeting in english"`
 
@@ -85,8 +90,10 @@
 }
 ```
 
-### DELETE
-## This will delete everything within the specified category. 
+## DELETE
+### This will delete everything within the specified category. 
+
+#### Template: `http delete https://sei21-es-project6.herokuapp.com/"<category name here>"`
 
 #### Example: `http delete https://sei21-es-project6.herokuapp.com/"english words"`
 
