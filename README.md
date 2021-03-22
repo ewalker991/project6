@@ -57,9 +57,9 @@
 
 ***Note: YOU MUST INCLUDE A CATEGORY WHEN MAKING A WORD.***
 
-#### Template: `http post https://sei21-es-project6.herokuapp.com/<word here> word="<word here>" description="<describe word here>" category="<define category here>"`
+#### Template: `$ http post https://sei21-es-project6.herokuapp.com/<word here> word="<word here>" description="<describe word here>" category="<define category here>"`
 
-#### Example: `http post https://sei21-es-project6.herokuapp.com/hello word="hello" category="english words" description="the word to greet others in english"`
+#### Example: `$ http post https://sei21-es-project6.herokuapp.com/hello word="hello" category="english words" description="the word to greet others in english"`
 
 ##### Expected Result: 
 ```
@@ -75,9 +75,9 @@
 ## PUT
 ### This will edit the word you specify and change its fields you define.
 
-#### Template: `http put https://sei21-es-project6.herokuapp.com/<word here> description="<desired description here>"`
+#### Template: `$ http put https://sei21-es-project6.herokuapp.com/<word here> description="<desired description here>"`
 
-#### Example: `http put https://sei21-es-project6.herokuapp.com/hello description="a short greeting in english"`
+#### Example: `$ http put https://sei21-es-project6.herokuapp.com/hello description="a short greeting in english"`
 
 ##### Expected result: 
 ```
@@ -93,9 +93,9 @@
 ## DELETE
 ### This will delete everything within the specified category. 
 
-#### Template: `http delete https://sei21-es-project6.herokuapp.com/"<category name here>"`
+#### Template: `$ http delete https://sei21-es-project6.herokuapp.com/"<category name here>"`
 
-#### Example: `http delete https://sei21-es-project6.herokuapp.com/"english words"`
+#### Example: `$ http delete https://sei21-es-project6.herokuapp.com/"english words"`
 
 ##### Expected result: 
 ```
