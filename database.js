@@ -1,6 +1,6 @@
 let mongoose = require('mongoose')
 
-let mongooseConnectionConfig = { useNewUrlParser: true, useUnifiedTopology: true }
+let mongooseConnectionConfig = { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }
 
 let connectionString = "";
 

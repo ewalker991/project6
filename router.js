@@ -1,18 +1,7 @@
 let express = require('express')
 let router = new express.Router()
-let vedicModel = require('./db/vedicModel')
+let vedicRouter = require('./db/router.js')
 
-router.get('/', (request, response) => {
-    vedicModel.find({})
-        .then((data) => response.json(data))
-})
-
-router.get('/:category', (request, response) => {
-    vedicModel.find({ category: request.params.category })
-        .then((data) => {
-            response.json(data)
-        })
-})
-
+router.use('/', vedicRouter)
 
 module.exports = router
