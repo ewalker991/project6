@@ -23,8 +23,8 @@
 * Legal: `law`, `morals`
 * Societal: `agriculture`, `caste`, `family`, `occupation`, `priest`, `royalty`, `trade`, `tribe`
 
-### This API uses HTTP GET for query
-## This will retrieve every object within your specified category.
+## This API uses HTTP GET for query
+### This will retrieve every object within your specified category.
 
 #### Example: `$ http get https://sei21-es-project6.herokuapp.com/food`
 
